@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajal's Cafe</title>
+    <link href="https://fonts.google.com/specimen/Geologica?vfonly=true">
+    <style>
+        body{
+         font-family: cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('sport.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:1100px;
+         }
+         .left{
+            display: inline-block;
+          /*  border:2px solid red; */
+            position:absolute;
+            left:50px;
+            top: 20px;
+         }
+         .left img{
+            width: 100px;
+         }
+         .left div{
+            text-align: center;
+         }
+         .mid{
+            display: block;
+            width:36%;
+            margin: 20px auto;
+           /* border:2px solid green; */
+         }
+        .right{
+            display: inline-block;
+            position:absolute;
+            right:34px;
+            top: 27px;
+          /*  border:2px solid yellow; */
+         }
+         .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding:4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: cursive;
+            cursor: pointer;
+         }
+         .btn:hover{
+            background-color: rgb(88, 63, 63);
+         }
+         .navbar li{
+            display: inline-block;
+            font-size: 15px;
+
+         }
+         .navbar li a{
+            padding: 34px 23px;
+            text-decoration: none;
+            color: white;
+
+
+         }
+         .navbar li a:hover,.navbar li a.active{
+            text-decoration:underline;
+            color: grey;
+         }
+         .container{
+            text-align: center;
+            font-size: 15px;
+            border: 2px solid white;
+            margin: 100px 50px;
+            padding: 75px;
+            width: 30%;
+            border-radius: 10px;
+         }
+         .formgroup input{
+            width: 250px;
+            display: block;
+            text-align: center;
+            font-size: 15px;
+            margin: 6px auto;
+            padding: 3px;
+            border: 2px solid black;
+            border-radius: 8px;
+
+         }
+         .container button{
+            display: block;
+            width: 23%;
+            margin: auto ;
+         }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left"> 
+            <img src="logo1.jpg">
+            <div>Sajal sports</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Contact us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+     <h2> Join the best sports club of Satna</h2> 
+      <form action="no action.php">
+         <div class="formgroup">
+         <input type="text" name="" placeholder="Enter the name">
+         </div>
+         <div class="formgroup">
+            <input type="text" name="" placeholder="Enter the Age">
+         </div>
+         <div class="formgroup">
+            <input type="text" name="" placeholder="Enter the Gender">
+         </div>
+         <div class="formgroup">
+            <input type="text" name="" placeholder="Enter the Locality">
+         </div>
+         <button class="btn">Submit</button>
+      </form>    
+    </div>
+    
+</body>
+</html>
